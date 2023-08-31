@@ -446,9 +446,10 @@ width: 100%;
     width: auto;
     height: 290px;
     transition: scale 400ms;
+    cursor: pointer;
 }
 .leftimg img:hover{
-    cursor: pointer;
+ 
     scale: 110%;
 }
 .content1{
@@ -985,6 +986,12 @@ font-size: 16px;
     }
 }
 @media (max-width:400px){
+    .para1 {
+        left: 17%;
+    }
+    .btn {
+        left: 17.3%;
+    }
     .hamburger{
         width: 50%
     }
@@ -999,10 +1006,13 @@ font-size: 16px;
         width: 56%;
 }
 .btn1 {
-    left: -23.7%;
+    left: -15.7%;
+}
+.btn1 button{
+    font-size: 12px;
 }
 .image {
-    margin-left: 15%;
+    margin-left: 17%;
 }
 .paradises h2 {
     font-size: 41px;
@@ -1020,7 +1030,34 @@ font-size: 16px;
     font-size: 12px;
 
 }
+.leftimg img {
+    height: 169px;
+
 }
+.rowOne img:hover {
+    cursor: pointer;
+    scale: 100%;
+  
+   
+}
+.image img{
+ filter: brightness(100%) saturate(100%);
+ transition: 0.5s ease-in-out;
+}
+.image img:hover{
+ cursor: pointer;
+ scale: 100%;
+ filter: brightness(100%) saturate(100%);
+}
+.img img:hover{
+    scale: 100%;
+}
+.leftimg img:hover{
+ scale: 100%;
+}
+
+}
+
 @media (max-width:350px){
     
     .rowOne img {
@@ -1056,7 +1093,7 @@ font-size: 16px;
         font-size: 12px;
     }
     .btn1 {
-        left: -15.7%;
+        left: -9.7%;
     }
     .btn1 button{
         padding: 8px 49px;
